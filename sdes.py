@@ -1,14 +1,3 @@
-#!/usr/bin/python3
-#
-# Author: Joao H de A Franco (jhafranco@acm.org)
-#
-# Description: Simplified DES implementation in Python 3
-#
-# Date: 2012-02-10
-#
-# License: Attribution-NonCommercial-ShareAlike 3.0 Unported
-#          (CC BY-NC-SA 3.0)
-#===========================================================
 from sys import exit
 from time import time
  
@@ -101,9 +90,6 @@ def decrypt(key, ciphertext):
     return fp(fk(keyGen(key)[0], swapNibbles(data)))  
  
 if __name__ == '__main__':
-    # Test vectors described in "Simplified DES (SDES)"
-    # (http://www2.kinneret.ac.il/mjmay/ise328/328-Assignment1-SDES.pdf)
- 
     try:
         assert encrypt(0b0000000000, 0b10101010) == 0b00010001
     except AssertionError:
