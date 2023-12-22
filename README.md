@@ -51,6 +51,4 @@ Je suis complètement d'accord!☺
 Fin du déchiffrement
 ```
 
-## Partie4
-
 
