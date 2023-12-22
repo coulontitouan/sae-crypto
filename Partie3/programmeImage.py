@@ -13,4 +13,4 @@ def cle_image(image_path):
             break
     return cle
 
-print(cle_image("rossignol2.bmp"))
+print(cle_image("images/rossignol2.bmp"))
