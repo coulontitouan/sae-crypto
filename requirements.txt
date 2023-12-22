@@ -1,3 +1,4 @@
 scapy==2.5.0
 Pillow==9.0.1
 py==1.10.0
+pycryptodome

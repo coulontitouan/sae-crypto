@@ -62,8 +62,8 @@ def cassage_astucieux(message_clair, message_chiffre):
             return ((cle1, cle2), double_sdes_decode(cle1, cle2, message_chiffre))
 
 if __name__ == '__main__':
-    lettres_persanes = open("lettres_persanes.txt", "rb").read()
-    arsene_lupin = open("arsene_lupin_extrait.txt", "rb").read()
+    lettres_persanes = open("Partie1EtPartie2/lettres_persanes.txt", "rb").read()
+    arsene_lupin = open("Partie1EtPartie2/arsene_lupin_extrait.txt", "rb").read()
     intervalle = 10
 
     for texte in [lettres_persanes, arsene_lupin]:
